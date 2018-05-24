@@ -1,0 +1,39 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url(sky.jpg);
+	background-repeat: no-repeat;
+}
+nav {
+	position: relative;
+	background-color: rgba(255, 255, 255, 0.); /*here*/
+	margin: 0;
+	border: 2px solid white; /*here*/
+	border-radius: 20px;
+	width: 97%;
+	left: 50%;
+	margin-top: 2%;
+	transform: translate(-50%, 0);
+	margin-bottom: 2%;
+}
+a {
+	text-decoration: none;
+	color: black;
+	margin: 0;
+	color: white; /*here*/
+	border: none;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+li {
+	display: inline-block;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
